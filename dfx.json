@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "edu_coin_backend": {
+      "type": "motoko",
+      "main": "src/edu_coin_backend/main.mo"
+    },
+    "edu_coin_frontend": {
+      "type": "assets",
+      "source": ["dist/"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    }
+  }
+}
