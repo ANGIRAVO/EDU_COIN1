@@ -40,26 +40,6 @@ flowchart TD
     A3 -- "Logs To" --> A7
 ```
 
-## Chapters
-
-1. [Frontend Application (UI)
-](01_frontend_application__ui__.md)
-2. [Internet Identity Authentication
-](02_internet_identity_authentication_.md)
-3. [Token Balance
-](03_token_balance_.md)
-4. [Token Transfer
-](04_token_transfer_.md)
-5. [Token Minting
-](05_token_minting_.md)
-6. [Demo Mode
-](06_demo_mode_.md)
-7. [Transaction History (Frontend)
-](07_transaction_history__frontend__.md)
-8. [EduCoin Smart Contract (Backend)
-](08_educoin_smart_contract__backend__.md)
-
----
 
 
 An educational cryptocurrency platform built on Internet Computer Protocol (ICP) to help students learn blockchain technology.
