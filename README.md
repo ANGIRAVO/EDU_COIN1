@@ -1,5 +1,67 @@
 # EduCoin - ICP Educational Token Platform
 
+
+EduCoin is an *educational cryptocurrency platform* built on the **Internet Computer Protocol (ICP)**, designed to help students learn blockchain. It features a robust **smart contract backend** that securely manages digital tokens, allowing users to view their *token balances*, perform *token transfers*, and in a controlled manner, *mint new tokens*. A user-friendly **React frontend** provides an interface for these operations, including a convenient *demo mode* for trying out features without blockchain connection, and displays a local *transaction history* of recent activities, all secured by **Internet Identity authentication** for real blockchain interaction.
+
+
+## Visual Overview
+
+```mermaid
+flowchart TD
+    A0["EduCoin Smart Contract (Backend)
+"]
+    A1["Token Balance
+"]
+    A2["Token Transfer
+"]
+    A3["Token Minting
+"]
+    A4["Internet Identity Authentication
+"]
+    A5["Frontend Application (UI)
+"]
+    A6["Demo Mode
+"]
+    A7["Transaction History (Frontend)
+"]
+    A0 -- "Manages" --> A1
+    A0 -- "Processes" --> A2
+    A0 -- "Performs" --> A3
+    A5 -- "Interacts With" --> A0
+    A5 -- "Displays" --> A1
+    A5 -- "Initiates" --> A2
+    A5 -- "Initiates" --> A3
+    A4 -- "Authenticates" --> A5
+    A5 -- "Supports" --> A6
+    A6 -- "Simulates" --> A2
+    A6 -- "Simulates" --> A3
+    A5 -- "Displays" --> A7
+    A2 -- "Logs To" --> A7
+    A3 -- "Logs To" --> A7
+```
+
+## Chapters
+
+1. [Frontend Application (UI)
+](01_frontend_application__ui__.md)
+2. [Internet Identity Authentication
+](02_internet_identity_authentication_.md)
+3. [Token Balance
+](03_token_balance_.md)
+4. [Token Transfer
+](04_token_transfer_.md)
+5. [Token Minting
+](05_token_minting_.md)
+6. [Demo Mode
+](06_demo_mode_.md)
+7. [Transaction History (Frontend)
+](07_transaction_history__frontend__.md)
+8. [EduCoin Smart Contract (Backend)
+](08_educoin_smart_contract__backend__.md)
+
+---
+
+
 An educational cryptocurrency platform built on Internet Computer Protocol (ICP) to help students learn blockchain technology.
 
 ## 🏗️ Project Structure
